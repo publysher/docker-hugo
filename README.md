@@ -1,4 +1,5 @@
-docker-hugo
-===========
+publysher/hugo
+==============
 
-Docker base image for static sites generated with Hugo. 
+Docker base image for static sites generated with [Hugo](http://gohugo.io). 
+
