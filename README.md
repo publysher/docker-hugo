@@ -7,6 +7,7 @@ Images derived from this image can either run as a stand-alone server, or functi
 
 Prerequisites
 -------------
+
 The image is based on the following directory structure:
 
 	.
@@ -27,6 +28,7 @@ In other words, your Hugo site resides in the `site` directory, and you have a s
 
 Building your site
 ------------------
+
 Based on this structure, you can easily build an image for your site:
 
 	docker build -t my/image .
@@ -36,6 +38,7 @@ Your site is automatically generated during this build.
 
 Using your site
 ---------------
+
 There are two options for using the image you generated: 
 
 - as a stand-alone image
@@ -59,4 +62,5 @@ The image is also suitable for use as a volume image for a web server, such as [
 
 Examples
 --------
+
 For an example of a Hugo site, have a look at https://github.com/publysher/blog.publysher.nl
