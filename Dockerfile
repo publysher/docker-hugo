@@ -10,9 +10,9 @@ RUN apt-get -qq update \
 ENV HUGO_VERSION 0.16
 ENV HUGO_BINARY hugo_${HUGO_VERSION}-1_amd64.deb
 
-ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /usr/local/
-RUN dpkg -i /usr/local/${HUGO_BINARY}/${HUGO_BINARY} \
-	&& rm /usr/local/${HUGO_BINARY}
+ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /tmp/hugo.deb
+RUN dpkg -i /tmp/hugo.deb \
+	&& rm /tmp/hugo.deb
 
 # Create working directory
 RUN mkdir /usr/share/blog
