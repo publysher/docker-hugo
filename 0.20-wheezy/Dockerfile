@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:wheezy
 MAINTAINER yigal@publysher.nl
 
 # Install pygments (for syntax highlighting) 
