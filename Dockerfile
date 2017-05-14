@@ -3,8 +3,10 @@ MAINTAINER yigal@publysher.nl
 
 # Install pygments (for syntax highlighting) 
 RUN apt-get -qq update \
-	&& DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends python-pygments git ca-certificates \
+	&& DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends python-pip git ca-certificates \
 	&& rm -rf /var/lib/apt/lists/*
+
+RUN pip install Pygments --upgrade
 
 # Download and install hugo
 ENV HUGO_VERSION 0.20.7
