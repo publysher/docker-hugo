@@ -1,3 +1,9 @@
+# About this forked repository
+
+This forked respository is currently using `hugo v0.30.2`. If you need to a newer hugo version, please feel free to let me know. =)
+
+---
+
 publysher/hugo
 ==============
 
