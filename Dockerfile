@@ -1,13 +1,13 @@
 FROM debian:jessie
 MAINTAINER yigal@publysher.nl
 
-# Install pygments (for syntax highlighting) 
+# Install pygments (for syntax highlighting)
 RUN apt-get -qq update \
 	&& DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends python-pygments git ca-certificates asciidoc \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Download and install hugo
-ENV HUGO_VERSION 0.30.2
+ENV HUGO_VERSION 0.46
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.deb
 
 

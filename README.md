@@ -1,6 +1,11 @@
 # About this forked repository
 
-This forked respository is currently using `hugo v0.30.2`. If you need to a newer hugo version, please feel free to let me know. =)
+This forked respository contains more updated version of hugo. If you need other hugo version, please feel free to let me know. =)
+
+## Available versions
+
+- 0.30.2
+- 0.46 (latest)
 
 ---
 
