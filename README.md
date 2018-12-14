@@ -5,7 +5,8 @@ This forked respository contains more updated version of hugo. If you need other
 ## Available versions
 
 - 0.30.2
-- 0.46 (latest)
+- 0.46
+- 0.51 (latest)
 
 ---
 
