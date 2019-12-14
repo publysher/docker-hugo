@@ -1,3 +1,16 @@
+# About this forked repository
+
+This forked respository contains more updated version of hugo. If you need other hugo version, please feel free to let me know. =)
+
+## Available versions
+
+- 0.30.2
+- 0.46
+- 0.51
+- 0.57.2 (latest)
+
+---
+
 publysher/hugo
 ==============
 
